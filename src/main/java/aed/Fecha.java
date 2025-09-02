@@ -10,7 +10,8 @@ public class Fecha {
     }
 
     public Fecha(Fecha fecha) {
-        // Implementar
+        this._dia = fecha._dia;
+        this._mes = fecha._mes;
     }
 
     public Integer dia() {
